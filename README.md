@@ -1,3 +1,3 @@
 # meu portifolio da trybe!!
 
-## <a href="https://brenooliveiranascimento.github.io/">Link para acesso!</a>
+## <a href="https://brenooliveiranascimento.github.io/" target="_blank">Link para acesso!</a>
