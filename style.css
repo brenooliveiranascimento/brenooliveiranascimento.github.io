@@ -1,7 +1,7 @@
 body{
   background-color: #000;
   color: #fff;
-  margin-top: 6rem;
+  margin-top: 3rem;
   margin-left: auto;
   margin-right: auto; 
 }
@@ -48,7 +48,6 @@ li{
   padding: 30px;
   align-items: center;
   justify-content: space-between;
-  border: 3px #ddd solid;
 }
 
 #description{
@@ -130,6 +129,10 @@ li{
   font-size: 29px;
 }
 
+h3:hover{
+  font-size: 40px;
+}
+
 .shields{
   width: 100px;
   height: 50px;
@@ -171,4 +174,48 @@ li{
 
 .shields-linkedin:hover{
   border: 6px #F82C4D solid
+}
+
+.itens-ocultos-trybe{
+  color: #000;
+}
+.itens-ocultos-desenho{
+  color: #000;
+}
+.itens-ocultos-karate{
+  color: #000;
+}
+.itens-ocultos-anime{
+  color: #000;
+}
+.itens-ocultos-filme{
+  color: #000;
+}
+.itens-ocultos-game{
+  color: #000;
+}
+
+.tryber .itens-ocultos-trybe:hover{
+  color: #F82C4D;
+}
+
+.itens-ocultos-desenho:hover{
+  color: #fff;
+}
+
+.itens-ocultos-karate:hover{
+  color: #F82C4D;
+}
+
+.itens-ocultos-anime:hover{
+  color: #fff;
+}
+
+
+.itens-ocultos-filme:hover{
+  color: #F82C4D;
+}
+
+.itens-ocultos-game:hover{
+  color: #fff;
 }
