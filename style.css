@@ -7,7 +7,6 @@ body{
 }
 
 a{
-  text-decoration: none;
   color: #aaa;
 }
 
@@ -45,6 +44,9 @@ li{
 #perfil_inf{
   display: flex;
   max-width: 1120px;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 #description{
@@ -73,3 +75,28 @@ li{
   font-size: 20px;
 }
 
+#topicos li:nth-child(odd){
+  color: #F82C4D;
+}
+
+#redes-sociais{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#redes-sociais li{
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#redes-sociais li a:hover{
+  color: #F82C4D;
+  text-decoration: underline;
+}
+
+#redes-sociais li a {
+  text-decoration: none;
+}
